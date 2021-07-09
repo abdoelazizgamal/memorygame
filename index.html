@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="control-buttons">
+        <span>Start Game</span>
+    </div>
+    <div class="info-container">
+        <div class="name">
+            Hello : <span></span>
+        </div>
+        <div class="tries">
+            Wrong Tries : <span>0</span>
+        </div>
+    </div>
+    <div class="memory-game-blocks">
+        <div class="game-block" data-technology="c">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="./images/c.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="c">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="./images/c.png" alt="">
+            </div>
+        </div>
+        
+        <div class="game-block" data-technology="css">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="./images/css.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="css">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="./images/css.png" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="html">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="./images/html.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="html">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="./images/html.png" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="jq">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="./images/jq.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="jq">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="./images/jq.png" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="js">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="./images/JS.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="js">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="./images/JS.png" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="mysql">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="./images/mysql.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="mysql">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="./images/mysql.png" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="node">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="./images/node.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="node">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="./images/node.png" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="php">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="./images/php.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="php">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="./images/php.png" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="python">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="./images/python.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="python">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="./images/python.png" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="react">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="./images/react.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="react">
+            <div class="front face"></div>
+            <div class="back face">
+                <img src="./images/react.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="success">
+        <span>Congratulation! You win</span>
+        <div class="reload">RePlay</div>
+    </div>
+    <div class="failed">
+        <span>sorry To Many Tries! Try Again</span>
+        <div class="again">Play Again</div>
+    </div>
+    <audio src="./Music/fail.mp3" id="fail" preload="auto"></audio>
+    <audio src="./Music/success.mp3" id="success" preload="auto"></audio>
+    <script src="./script.js"></script>
+</body>
+</html>
